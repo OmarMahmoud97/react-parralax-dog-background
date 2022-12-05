@@ -4,9 +4,9 @@ function Background() {
   return (
     <div className="landing">
       {" "}
-      <div class="outer-wrapper">
-        <div class="wrapper">
-          <div class="slide one">
+      <div className="outer-wrapper">
+        <div className="wrapper">
+          <div className="slide one">
             <Dog />
           </div>
         </div>
