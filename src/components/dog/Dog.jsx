@@ -1,13 +1,5 @@
 import "./Dog.scss";
-import { useState, useEffect } from "react";
-function Dog() {
-  const [scroll, setScroll] = useState(false);
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 50);
-    });
-  }, []);
-  // {scroll ? "dog-wrapper" : "bg-white"}
+function Moving() {
   return (
     <div className="dog-wrapper">
       <div className="dog">
@@ -80,4 +72,4 @@ function Dog() {
   );
 }
 
-export default Dog;
+export default Moving;

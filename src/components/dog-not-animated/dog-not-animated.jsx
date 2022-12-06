@@ -1,66 +1,66 @@
 import React from "react";
 import "./dog-not-animated.scss";
 
-function Doganimated() {
+function Stationary() {
   return (
     <div className="dog-wrapper">
-      <div class="dog-1">
-        <div class="torso-1">
-          <div class="fur-1">
-            <div class="spot-1"></div>
+      <div className="dog-1">
+        <div className="torso-1">
+          <div className="fur-1">
+            <div className="spot-1"></div>
           </div>
-          <div class="neck-1">
-            <div class="fur-1"></div>
-            <div class="head-1">
-              <div class="fur-1">
-                <div class="snout-1"></div>
+          <div className="neck-1">
+            <div className="fur-1"></div>
+            <div className="head-1">
+              <div className="fur-1">
+                <div className="snout-1"></div>
               </div>
-              <div class="ears-1">
-                <div class="ear-1">
-                  <div class="fur-1"></div>
+              <div className="ears-1">
+                <div className="ear-1">
+                  <div className="fur-1"></div>
                 </div>
-                <div class="ear-1">
-                  <div class="fur-1"></div>
+                <div className="ear-1">
+                  <div className="fur-1"></div>
                 </div>
               </div>
-              <div class="eye-1"></div>
+              <div className="eye-1"></div>
             </div>
-            <div class="collar-1"></div>
+            <div className="collar-1"></div>
           </div>
-          <div class="legs-1">
-            <div class="leg-1">
-              <div class="fur-1"></div>
-              <div class="leg-inner-1">
-                <div class="fur-1"></div>
+          <div className="legs-1">
+            <div className="leg-1">
+              <div className="fur-1"></div>
+              <div className="leg-inner-1">
+                <div className="fur-1"></div>
               </div>
             </div>
-            <div class="leg-1">
-              <div class="fur-1"></div>
-              <div class="leg-inner-1">
-                <div class="fur-1"></div>
+            <div className="leg-1">
+              <div className="fur-1"></div>
+              <div className="leg-inner-1">
+                <div className="fur-1"></div>
               </div>
             </div>
-            <div class="leg-1">
-              <div class="fur-1"></div>
-              <div class="leg-inner-1">
-                <div class="fur-1"></div>
+            <div className="leg-1">
+              <div className="fur-1"></div>
+              <div className="leg-inner-1">
+                <div className="fur-1"></div>
               </div>
             </div>
-            <div class="leg-1">
-              <div class="fur-1"></div>
-              <div class="leg-inner-1">
-                <div class="fur-1"></div>
+            <div className="leg-1">
+              <div className="fur-1"></div>
+              <div className="leg-inner-1">
+                <div className="fur-1"></div>
               </div>
             </div>
           </div>
-          <div class="tail-1">
-            <div class="tail-1">
-              <div class="tail-1">
-                <div class="tail -end">
-                  <div class="tail-1">
-                    <div class="tail-1">
-                      <div class="tail-1">
-                        <div class="tail-1"></div>
+          <div className="tail-1">
+            <div className="tail">
+              <div className="tail">
+                <div className="tail">
+                  <div className="tail">
+                    <div className="tail">
+                      <div className="tail">
+                        <div className="tail"></div>
                       </div>
                     </div>
                   </div>
@@ -74,4 +74,4 @@ function Doganimated() {
   );
 }
 
-export default Doganimated;
+export default Stationary;

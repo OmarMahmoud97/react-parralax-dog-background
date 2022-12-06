@@ -1,4 +1,5 @@
 import "./Background.scss";
+
 function Background() {
   return (
     <div className="landing">
