@@ -7,8 +7,9 @@ import Stationary from "./components/dog-not-animated/dog-not-animated";
 import "./styles/partials/_resets.scss";
 
 function App() {
-  function dog() {}
-
+  window.addEventListener("scroll", () => {
+    console.log(window.pageYOffset);
+  });
   return (
     <BrowserRouter>
       <div className="App">

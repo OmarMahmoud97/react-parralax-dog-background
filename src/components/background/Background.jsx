@@ -1,6 +1,9 @@
 import "./Background.scss";
 
 function Background() {
+  window.addEventListener("scroll", () => {
+    console.log(window.pageYOffset);
+  });
   return (
     <div className="landing">
       <div className="outer-wrapper">
